@@ -1,5 +1,5 @@
 source :rubygems
 
-gem 'mutant', github: 'mbj/mutant'
+gem 'mutant'
 gem 'rspec'
 gem 'simplecov'

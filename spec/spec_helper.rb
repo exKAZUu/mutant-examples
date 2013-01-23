@@ -1,4 +1,5 @@
-#require 'simplecov'
-#SimpleCov.start
+require 'simplecov'
+SimpleCov.start
 
 require 'rspec'
+require './lib/book'
