@@ -5,7 +5,7 @@ describe Book, '#page' do
 
   let(:page) { Page.new(1) }
 
-  before { book << page }
+  before { book.add_page(page) }
 
   context 'when page exists' do
     it 'should return page' do
