@@ -1,6 +1,6 @@
 # mutant-examples
 
-This repo has examples for ["Mutantion Testing with Mutant"](http://solnic.eu/2013/01/23/mutation-testing-with-mutant.html) 
+This repo has examples for ["Mutation Testing with Mutant"](http://solnic.eu/2013/01/23/mutation-testing-with-mutant.html) 
 blog post.
 
 There are two branches:
