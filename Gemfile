@@ -1,5 +1,6 @@
-source :rubygems
+source "https://rubygems.org"
 
-gem 'mutant'
-gem 'rspec'
-gem 'simplecov'
+gem "mutant", "~> 0.5"
+gem "mutant-rspec", "~> 0.5"
+gem "rspec", "~> 2.14"
+gem "simplecov"
