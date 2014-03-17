@@ -11,9 +11,9 @@ There are two branches:
 To run specs and mutant:
 
 ```
-bundle
-rspec spec/unit/book_spec.rb
-mutant -r book --use rspec '::Book#add_page'
+bundle # if you fail, try gem install mutant
+rspec spec
+mutant -I lib -r book --use rspec '::Book*'
 ```
 
 Enjoy!
